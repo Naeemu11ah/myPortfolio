@@ -1,7 +1,7 @@
 export default function Contact() {
   const contact_info = [
     { logo: "mail", text: "nu234875@gmail.com" },
-    { logo: "call-outline", text: "+92 0000000000" },
+    { logo: "call-outline", text: "+92 3429611862" },
     {
       logo: "location",
       text: "Charbagh Swat, Pakistan",

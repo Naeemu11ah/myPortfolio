@@ -83,7 +83,7 @@ export default function Skills() {
           {skills?.map((skill, i) => (
             <div
               key={i}
-              className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-4 rounded-xl"
+              className="border-2 group border-cyan-600 relative basis-full sm:basis-auto min-w-[10rem] max-w-[16rem] bg-gray-900 p-4 rounded-xl flex flex-col items-center text-center"
             >
               <p className="text-xl mb-2">{skill.name}</p>
               <div
