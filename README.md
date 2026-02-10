@@ -18,5 +18,5 @@ This responsive portfolio made for mobile and laptop screens using React Vite an
 
 **Links**
 
-[Live Link]()  
+[Live]()  
 [Watch Video]()
