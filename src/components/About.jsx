@@ -45,10 +45,12 @@ export default function About() {
               <br />
               <br />
               <a
-                href="https://drive.google.com/file/d/1d-tHHJE2Vat8nDrZD5_vseS94xaxw4Rj/view?usp=drivesdk"
+                href="/Naeemullah_resume.pdf"
+                download
+                aria-label="Download resume"
                 className="btn-primary w-52 flex justify-center"
               >
-                Check Resume
+                Download Resume
               </a>
             </div>
           </div>
