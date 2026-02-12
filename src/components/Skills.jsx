@@ -72,6 +72,12 @@ export default function Skills() {
       level: "Beginner",
       count: 53,
     },
+    {
+      name: "Typescript",
+      logo: "devicon-typescript-plain",
+      level: "Beginner",
+      count: 40,
+    },
   ];
   return (
     <section id="skills" className="py-10 relative">
