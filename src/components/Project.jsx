@@ -18,7 +18,7 @@ export default function Project() {
       img: projectOne,
       name: "Shelters",
       github_link: "https://github.com/Naeemu11ah/Shelters.git",
-      live_link: "https://shelters-production.up.railway.app/list",
+      live_link: "https://shelters-production-590b.up.railway.app/list",
       video_link:
         "https://www.linkedin.com/posts/naeemullah-%7E-081059352_full-stack-web-app-built-using-express-js-activity-7418326193201987585-iUQT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
     },
