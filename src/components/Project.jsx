@@ -8,6 +8,7 @@ import projectFive from "../assets/images/currencyConverter.png";
 import projectSix from "../assets/images/ticTacToe.png";
 import projectSeven from "../assets/images/todo.png";
 import projectEight from "../assets/images/weatherApp.png";
+import projectNine from "../assets/images/webCloneByWordpress.png";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -35,6 +36,12 @@ export default function Project() {
       github_link: "https://github.com/Naeemu11ah/PW_skills_web_Home-page.git",
       video_link:
         "https://www.linkedin.com/posts/naeemullah-%7E-081059352_programming-activity-7367138094132752384-J95F?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
+    },
+    {
+      img: projectNine,
+      name: "WebClone with Wordpress",
+      video_link:
+        "https://www.linkedin.com/posts/naeemullah-%7E-081059352_built-to-practice-wordpress-it-could-be-activity-7431019788820353024-48fl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
     },
     {
       img: projectFour,

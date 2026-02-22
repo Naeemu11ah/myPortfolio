@@ -61,6 +61,12 @@ export default function Skills() {
       count: 65,
     },
     {
+      name: "WORDPRESS",
+      logo: "devicon-wordpress-plain",
+      level: "Beginner",
+      count: 53,
+    },
+    {
       name: "PYTHON",
       logo: "devicon-python-plain",
       level: "Beginner",
@@ -73,7 +79,7 @@ export default function Skills() {
       count: 53,
     },
     {
-      name: "Typescript",
+      name: "TYPESCRIPT",
       logo: "devicon-typescript-plain",
       level: "Beginner",
       count: 40,
