@@ -1,6 +1,6 @@
 export default function About() {
   const info = [
-    { text: "Major Projects", count: "01" },
+    { text: "Major Projects", count: "02" },
     { text: "Mini Projects", count: "14" },
     { text: "Coding experience", count: "1 Year " },
   ];
@@ -16,14 +16,12 @@ export default function About() {
             <div className="text-gray-300 my-3">
               <p className="text-center leading-7 w-11/12 mx-auto">
                 I’m a <span className="font-bold text-white">MERN Stack</span>{" "}
-                Web Developer and final-year Software Engineering student with
-                over one year of coding experience. I have strong command in
-                HTML, CSS, JavaScript, Tailwind, Bootstrap, React, Node.js,
-                Express, MySQL, and MongoDB.
+                Web Developer and final-year Software Engineering student at the
+                University of Swat with over one year of coding experience.
                 <br />
-                I’ve built multiple small projects including a major web
-                application, all available on my GitHub with demo videos on my
-                LinkedIn profile. While I haven’t worked in a company or
+                I’ve built multiple small projects including 2 major fullstack
+                web applications, all available on my GitHub with demo videos on
+                my LinkedIn profile. While I haven’t worked in a company or
                 freelancing role yet, but continuously improving my skills.
                 <br />
                 Academically, I’ve scored 90% in Matric, 76% in FSC, and

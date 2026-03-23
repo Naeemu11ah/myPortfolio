@@ -9,12 +9,20 @@ import projectSix from "../assets/images/ticTacToe.png";
 import projectSeven from "../assets/images/todo.png";
 import projectEight from "../assets/images/weatherApp.png";
 import projectNine from "../assets/images/webCloneByWordpress.png";
+import projectTen from "../assets/images/UOSPastPapers.png";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Project() {
   const projects = [
+    {
+      img: projectTen,
+      name: "UOS Past Papers",
+      live_link: "",
+      video_link:
+        "https://www.linkedin.com/posts/naeemullah-%7E-081059352_ous-past-papers-my-second-major-project-activity-7441709548484165634-PBqS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
+    },
     {
       img: projectOne,
       name: "Shelters",
@@ -138,29 +146,36 @@ export default function Project() {
                     />
                     <h3 className="text-xl my-4">{project_info.name}</h3>
                     <div className="flex gap-3">
-                      <a
-                        href={project_info.github_link}
-                        target="_blank"
-                        className="bg-cyan-600 text-gray-300 px-2 md:px-3 font-semibold py-1 inline-block rounded-lg"
-                      >
-                        Github
-                      </a>
+                      {project_info.github_link && (
+                        <a
+                          href={project_info.github_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-cyan-600 text-gray-300 px-2 md:px-3 font-semibold py-1 inline-block rounded-lg"
+                        >
+                          Github
+                        </a>
+                      )}
                       {project_info.live_link && (
                         <a
                           href={project_info.live_link}
                           target="_blank"
+                          rel="noopener noreferrer"
                           className="bg-cyan-600 text-gray-300 px-2 md:px-3 font-semibold rounded-lg py-1 inline-block"
                         >
                           Live
                         </a>
                       )}
-                      <a
-                        href={project_info.video_link}
-                        target="_blank"
-                        className="bg-cyan-600 text-gray-300 px-2 md:px-3 font-semibold rounded-lg py-1 inline-block"
-                      >
-                        Video
-                      </a>
+                      {project_info.video_link && (
+                        <a
+                          href={project_info.video_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-cyan-600 text-gray-300 px-2 md:px-3 font-semibold rounded-lg py-1 inline-block"
+                        >
+                          Video
+                        </a>
+                      )}
                     </div>
                   </div>
                 </SwiperSlide>
