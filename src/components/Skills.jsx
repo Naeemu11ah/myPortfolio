@@ -84,6 +84,12 @@ export default function Skills() {
       level: "Beginner",
       count: 40,
     },
+    {
+      name: "Java",
+      logo: "devicon-java-plain",
+      level: "Beginner",
+      count: 40,
+    },
   ];
   return (
     <section id="skills" className="py-10 relative">

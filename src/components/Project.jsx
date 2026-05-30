@@ -10,6 +10,8 @@ import projectSeven from "../assets/images/todo.png";
 import projectEight from "../assets/images/weatherApp.png";
 import projectNine from "../assets/images/webCloneByWordpress.png";
 import projectTen from "../assets/images/UOSPastPapers.png";
+import projectEleven from "../assets/images/NaeStore.png";
+import projectTwelve from "../assets/images/NaeVerse.png";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -17,9 +19,26 @@ import "swiper/css/pagination";
 export default function Project() {
   const projects = [
     {
+      img: projectEleven,
+      name: "NaeStore",
+      live_link: "",
+      github_link: "https://github.com/Naeemu11ah/CodeAlpha_NaeStore.git",
+      video_link:
+        "https://www.linkedin.com/posts/naeemullah-%7E-081059352_expressjs-mongodb-bootstrap-ugcPost-7466108263995129856-rSQI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
+    },
+    {
+      img: projectTwelve,
+      name: "NaeVerse",
+      live_link: "",
+      github_link: "https://github.com/Naeemu11ah/CodeAlpha_NaeVerse.git",
+      video_link:
+        "https://www.linkedin.com/posts/naeemullah-%7E-081059352_codealpha-internshipproject-fullstackdevelopment-ugcPost-7461100443889270784-w1Op?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
+    },
+    {
       img: projectTen,
       name: "UOS Past Papers",
       live_link: "",
+      github_link: "",
       video_link:
         "https://www.linkedin.com/posts/naeemullah-%7E-081059352_ous-past-papers-my-second-major-project-activity-7441709548484165634-PBqS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
     },
