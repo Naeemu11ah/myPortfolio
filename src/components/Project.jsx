@@ -12,6 +12,7 @@ import projectNine from "../assets/images/webCloneByWordpress.png";
 import projectTen from "../assets/images/UOSPastPapers.png";
 import projectEleven from "../assets/images/NaeStore.png";
 import projectTwelve from "../assets/images/NaeVerse.png";
+import projectThirteen from "../assets/images/Naetify.png";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -41,6 +42,14 @@ export default function Project() {
       github_link: "",
       video_link:
         "https://www.linkedin.com/posts/naeemullah-%7E-081059352_ous-past-papers-my-second-major-project-activity-7441709548484165634-PBqS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
+    },
+    {
+      img: projectThirteen,
+      name: "Naetify",
+      github_link: "https://github.com/Naeemu11ah/Naetify.git",
+      live_link: "",
+      video_link:
+        "https://www.linkedin.com/posts/naeemullah-%7E-081059352_webdevelopment-fullstackdevelopment-nodejs-ugcPost-7471197206251819009-_R7m/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFftsiEB4tZusIFGExXzwDNsmOyFmnG3S1s",
     },
     {
       img: projectOne,

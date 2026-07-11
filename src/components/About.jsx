@@ -1,7 +1,7 @@
 export default function About() {
   const info = [
-    { text: "Major Projects", count: "04" },
-    { text: "Mini Projects", count: "14" },
+    { text: "Major Projects", count: "05" },
+    { text: "Mini Projects", count: "15" },
     { text: "Coding experience", count: "2 Years " },
   ];
 
@@ -17,12 +17,13 @@ export default function About() {
               <p className="text-center leading-7 w-11/12 mx-auto">
                 I’m a <span className="font-bold text-white">MERN Stack</span>{" "}
                 Web Developer and final-year Software Engineering student at the
-                University of Swat with over two year of coding experience.
+                University of Swat with over two year of coding along three
+                months of internship experience at Code Alpha & Arch
+                technologies.
                 <br />
-                I’ve built multiple small projects including 4 major fullstack
+                I’ve built multiple small projects including 5 major fullstack
                 web applications, all available on my GitHub with demo videos on
-                my LinkedIn profile. While I haven’t worked in a company or
-                freelancing role yet, but continuously improving my skills.
+                my LinkedIn profile.
                 <br />
                 Academically, I’ve scored 90% in Matric, 76% in FSC, and
                 currently holding a CGPA of 3.6 in Software Engineering. I am
